@@ -1,0 +1,110 @@
+    <title>Blog Page</title>
+    <link rel="stylesheet" href="./project.css"> 
+    <link rel="icon" href="./logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+
+{{>logo}}
+{{>navbar}}
+
+    <div class="container" id="content">
+      <br>
+      <br>
+      <div class="container d-flex">
+        <div class="row">
+          <div class="col-md-4 offset-1">
+            <div class="card">
+              <img src="./small.jpg" class="card-img-top" alt="small business">            
+              <div class="card-body">
+                <h5 class="card-title">Design a home office to increase productivity</h5>
+                <p class="card-text">
+                  Working from home is no longer a luxury enjoyed by a small few but is now the gold standard. 
+                  It can certainly allow a better work/life balance, yet can...
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-2">
+            <div class="card">
+              <img src="./AlmaLinux.jpg" class="card-img-top" alt="small business">
+            
+              <div class="card-body">
+                <h5 class="card-title">AlmaLinux 8 is now available!</h5>
+                <p class="card-text">
+                  AlmaLinux 8 is now available with our Cloud and Dedicated servers. 
+                  Are you a Cloud or Dedicated server administrator? Read on to learn about how this...
+                </p>
+                <a href="/article" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+      <br>
+
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 offset-1">
+            <div class="card">
+              <img src="./small2.jpg" class="card-img-top" alt="small business 2">
+            
+              <div class="card-body">
+                <h5 class="card-title">How to beat procrastination and get more done!</h5>
+                <p class="card-text">
+                  We've all been there... Sitting in front of the screen, 
+                  facing a daunting task. And then... maybe just a quick email check or a quick scroll on Facebook?...
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 offset-2">
+            <div class="card">
+              <img src="./small3.jpg" class="card-img-top" alt="small business 3">
+            
+              <div class="card-body">
+                <h5 class="card-title">How to start an online business in 4 steps</h5>
+                <p class="card-text">
+                  TLDR; Starting a business requires a solid plan, a great business name, 
+                  a website that emotionally connects with your target market...
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </div>
+
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-2">
+            <div class="card">
+              <img src="./big.jpg" class="card-img-top" alt="Big">
+            
+              <div class="card-body">
+                <h5 class="card-title">Better and faster backups with JetBackup 5</h5>
+                <p class="card-text">
+                  We’re pleased to announce that JetBackup 5 is now available at WHC! 
+                  In this article, we’ll look over the improvements in this new release,...
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <br>
+      <br>
+    </div>
+    
+    <br>
+
+    {{>footer}} 
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

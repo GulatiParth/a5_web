@@ -1,0 +1,143 @@
+#header{
+    background-color: rgb(227, 195, 232);
+    padding: 30px;
+    color:black;;   
+}
+
+#image{
+    background-color: #f7f5ed;
+    padding: 1px;
+    border: #131729 solid;
+}
+
+#logoName{
+    font-size: 20 px;
+    font-weight: bold;
+    background-color: #f7f5ed;
+    font-style: bold;
+    color: #131729;
+    text-align: left;
+    padding: 10px;
+}
+
+#webTOP{
+    color: lightcoral;
+    font: bold;
+    font-size: xx-large;
+}
+
+#navBar{
+    background-color: #0c0c0cef;
+    padding: 10px;  
+}
+
+#top{
+    background-color:#f7f5ed;
+}
+
+#content{
+    background-color: #f7f5ed;
+}
+
+#footer{
+    background-color: black;;
+}
+
+#imageAL{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#title{
+    text-align: center
+}
+
+#ALcontent
+{
+    background-color: #f7f5ed;
+    font-size: larger;
+}
+
+#whcComments{
+    background-color: #d2cfba;
+    border-style: solid;
+    border-color: black;
+    font-size: larger;
+}
+
+.required{
+    color:red;
+}
+
+#footerHead{
+    font-size: xx-large;
+    color: lightcoral;
+}
+
+.gradient-custom{
+    /* fallback for old browsers */
+    background: #11cb24;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #11cb27, rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #11cb7a, rgba(37, 117, 252, 1))
+}
+
+@media (min-width: 1025px){
+    .h-custom {
+    height: 100vh !important;
+    }
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+.card-registration .select-arrow {
+    top: 13px;
+}
+    
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #a1c4fd;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #11cb27, rgba(37, 117, 252, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #11cb7a, rgba(37, 117, 252, 1))
+}
+    
+.bg-indigo {
+    background-color: #4835d4;
+}
+
+ @media (min-width: 992px) {
+    .card-registration-2 .bg-indigo {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card-registration-2 .bg-indigo {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    }
+}
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("./Hosting.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 100px;
+    padding-top: 25px;
+}

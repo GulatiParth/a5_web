@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "mongoose": "^6.7.3"
+  },
+  "name": "a5_web",
+  "version": "1.0.0",
+  "main": "a5.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Parth Gulati",
+  "license": "ISC",
+  "description": ""
+}

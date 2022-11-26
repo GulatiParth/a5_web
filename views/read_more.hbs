@@ -1,0 +1,75 @@
+    <title>Read More Page</title>
+    <link rel="stylesheet" href="./project.css">
+    <link rel="icon" href="./logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+{{>logo}}
+
+{{>navbar}}
+      
+    <div class="container" style="background-color:#f7f5ed ;">
+        <div class="container" id="title" style="background-color:#f7f5ed ;">
+            <img src="./AlmaLinux.jpg" alt="Alma Linux" id="imageAL" style="padding-top: 1px;;" >
+            <br>
+            <h1><b><b>AlmaLinux 8 is now available!</b></b></h1>
+        </div>
+
+        <div class="container" id="ALcontent">
+           {{!-- <h3><strong>What is AlmaLinux 8?</strong></h3>  --}}
+           <h3><strong>{{data.heading}}</strong></h3>
+           {{!-- <p>
+            AlmaLinux 8 is an enterprise-grade operating system (OS), like CentOS, that provides a powerful platform for your servers to deliver websites and email. It was developed in response to the announcement that CentOS 8 support has reached ‘end of life’. 
+            This means essential security updates will soon no longer be available for this OS.
+           </p> --}}
+           <p>
+            {{data.data}}
+           </p>
+           <br>
+           <h3><strong>How do I get it?</strong></h3> 
+           <p>
+            If you activate a new Cloud or Dedicated server, you will now have the option to have AlmaLinux 8 pre-installed as your OS.
+           </p>
+           <br>
+           <h3><strong>Why choose AlmaLinux 8?</strong></h3> 
+           <p>
+            Here are some of the notable benefits you’ll get with AlmaLinux 8:
+            <ul>
+                <li>
+                    <b>Built for enterprise: </b>
+                    It’s an enterprise-grade OS that is more than capable of handling substantial server workloads.
+                </li>
+                <li>
+                    <b>Long support windows: </b>
+                    Support for AlmaLinux 8 has been committed to until at least 2029, including thoroughly tested updates and security patches.
+                </li>
+                <li>
+                    <b>Easy to switch over: </b>
+                    AlmaLinux is a 1:1 binary replacement for Red Hat Enterprise Linux (RHEL). 
+                    This makes switching from the same versions of CentOS to AlmaLinux a breeze, requiring minimum effort.
+                </li>
+            </ul>
+           </p>
+           <br>
+           <h3><strong>Should I upgrade to AlmaLinux 8 and how do I upgrade?</strong></h3> 
+           <p>
+            If you have a Cloud or Dedicated server and are running CentOS 7 (or earlier versions!), 
+            you should consider upgrading to AlmaLinux 8 or CloudLinux by summer of 2024, as June 30, 2024, is end-of-life (EOL) for CentOS 7.
+            <br><br>
+            This will increase the security and usability of your server and give you a solid foundation for years to come.
+            <br><br>
+            Upgrading the OS of your server is not a simple operation. 
+            It generally involves activating a second server running the new OS, then migrating the contents 
+            from the older server to the new one. Our support team can assist you with this when needed.
+            <br><br>
+            If you have any questions, please feel free to reach out!<br> <br>
+           </p>
+           
+        </div>
+      </div> 
+{{>comment}}
+  <br><br>
+{{>footer}}
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
